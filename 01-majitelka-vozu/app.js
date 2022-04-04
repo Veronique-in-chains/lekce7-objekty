@@ -18,3 +18,12 @@ auto["znacka"] = "Škoda";
 let majitelka = auto.majitel.jmeno + " " + auto.majitel.prijmeni;
 let znacka = auto.znacka;
 let spz = auto.spz;
+
+let majitelkaSpan = document.getElementById("majitelka");
+majitelkaSpan.textContent = majitelka;
+
+let znackaSpan = document.getElementById("znacka");
+znackaSpan.textContent = znacka;
+
+let spzSpan = document.getElementById("spz");
+spzSpan.textContent = spz;
